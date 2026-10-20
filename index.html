@@ -1,0 +1,342 @@
+<title>Rank & Rent PACA</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap">
+
+<style>
+  /* Hub — grid of 5 rank & rent sites for PACA region */
+  :root {
+    --bg: #0c0f14;
+    --surface: #161a22;
+    --surface-hover: #1e232d;
+    --border: #2a2f3a;
+    --fg: #e4e6eb;
+    --fg-muted: #8b8f9a;
+    --accent: #4f8cff;
+    --accent-glow: rgba(79, 140, 255, 0.12);
+    --green: #34d399;
+    --amber: #fbbf24;
+    --red: #f87171;
+    color-scheme: dark;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #f5f6f8;
+      --surface: #ffffff;
+      --surface-hover: #f0f1f4;
+      --border: #d8dbe2;
+      --fg: #1a1d24;
+      --fg-muted: #6b7080;
+      --accent: #2563eb;
+      --accent-glow: rgba(37, 99, 235, 0.08);
+      --green: #059669;
+      --amber: #d97706;
+      --red: #dc2626;
+      color-scheme: light;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #f5f6f8;
+    --surface: #ffffff;
+    --surface-hover: #f0f1f4;
+    --border: #d8dbe2;
+    --fg: #1a1d24;
+    --fg-muted: #6b7080;
+    --accent: #2563eb;
+    --accent-glow: rgba(37, 99, 235, 0.08);
+    --green: #059669;
+    --amber: #d97706;
+    --red: #dc2626;
+    color-scheme: light;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'DM Sans', system-ui, sans-serif;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 0;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding-block: 2.5rem 1rem;
+    text-align: center;
+  }
+  .header h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(1.4rem, 4vw, 2rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.5rem;
+    text-wrap: balance;
+  }
+  .header h1 span {
+    color: var(--accent);
+  }
+  .header p {
+    color: var(--fg-muted);
+    font-size: 0.95rem;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .stats {
+    display: flex;
+    gap: 1px;
+    background: var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 2rem 0;
+  }
+  .stat {
+    flex: 1;
+    background: var(--surface);
+    padding: 1.2rem 0.8rem;
+    text-align: center;
+    min-width: 0;
+  }
+  .stat-value {
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(1.1rem, 3vw, 1.6rem);
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .stat-label {
+    font-size: 0.75rem;
+    color: var(--fg-muted);
+    margin-top: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+    margin-block: 1.5rem;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: var(--fg);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    transition: background 0.15s, border-color 0.15s, transform 0.15s;
+  }
+  .card:hover {
+    background: var(--surface-hover);
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+
+  .card-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+  }
+
+  .card-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: 1.3;
+  }
+  .card-meta {
+    font-size: 0.82rem;
+    color: var(--fg-muted);
+    line-height: 1.5;
+  }
+
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: auto;
+  }
+  .tag {
+    font-size: 0.7rem;
+    font-family: 'Space Mono', monospace;
+    padding: 0.2rem 0.55rem;
+    border-radius: 6px;
+    background: var(--accent-glow);
+    color: var(--accent);
+    letter-spacing: 0.02em;
+  }
+  .tag--green { background: rgba(52, 211, 153, 0.12); color: var(--green); }
+  .tag--amber { background: rgba(251, 191, 36, 0.12); color: var(--amber); }
+
+  .card-rent {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--green);
+  }
+
+  .footer {
+    text-align: center;
+    padding-block: 2rem 3rem;
+    color: var(--fg-muted);
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+    margin-top: 2rem;
+  }
+  .footer a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .section-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--fg-muted);
+    margin: 2.5rem 0 0.5rem;
+  }
+
+  .docs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+    margin-block: 1rem;
+  }
+  .doc-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.2rem;
+    text-decoration: none;
+    color: var(--fg);
+    transition: background 0.15s;
+  }
+  .doc-card:hover { background: var(--surface-hover); }
+  .doc-title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+  }
+  .doc-desc {
+    font-size: 0.8rem;
+    color: var(--fg-muted);
+    line-height: 1.45;
+  }
+</style>
+
+<div class="header">
+  <h1>Rank <span>&</span> Rent <span>PACA</span></h1>
+  <p>5 sites de lead generation locale — Marseille, Toulon, Avignon</p>
+</div>
+
+<div class="stats">
+  <div class="stat">
+    <div class="stat-value">5</div>
+    <div class="stat-label">Sites</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">37</div>
+    <div class="stat-label">Pages</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">2 350&euro;</div>
+    <div class="stat-label">Objectif / mois</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">~70&euro;</div>
+    <div class="stat-label">Co&ucirc;t / mois</div>
+  </div>
+</div>
+
+<div class="section-label">Sites</div>
+
+<div class="grid">
+  <a class="card" href="sites/avocat-divorce-toulon/index.html">
+    <div class="card-icon" style="background: rgba(99,102,241,0.12); color: #818cf8;">&#9878;</div>
+    <div class="card-title">Avocat Divorce Toulon</div>
+    <div class="card-meta">Cabinet Juridique du Var — 7 pages<br>Divorce, pension, garde, consentement mutuel</div>
+    <div class="card-tags">
+      <span class="tag">Toulon</span>
+      <span class="tag">Var 83</span>
+      <span class="tag--green tag">Haute valeur</span>
+    </div>
+    <div class="card-rent">500 &euro;/mois</div>
+  </a>
+
+  <a class="card" href="sites/pompes-funebres-avignon/index.html">
+    <div class="card-icon" style="background: rgba(148,130,100,0.12); color: #a8956e;">&#9883;</div>
+    <div class="card-title">Pompes Fun&egrave;bres Avignon</div>
+    <div class="card-meta">Pompes Fun&egrave;bres du Vaucluse — 8 pages<br>Obs&egrave;ques, cr&eacute;mation, rapatriement, pr&eacute;voyance</div>
+    <div class="card-tags">
+      <span class="tag">Avignon</span>
+      <span class="tag">Vaucluse 84</span>
+      <span class="tag--green tag">Haute valeur</span>
+    </div>
+    <div class="card-rent">600 &euro;/mois</div>
+  </a>
+
+  <a class="card" href="sites/degat-eaux-marseille/index.html">
+    <div class="card-icon" style="background: rgba(56,189,248,0.12); color: #38bdf8;">&#9832;</div>
+    <div class="card-title">D&eacute;g&acirc;t des Eaux Marseille</div>
+    <div class="card-meta">Ass&egrave;chement Pro 13 — 7 pages<br>Urgence, recherche fuite, ass&egrave;chement, assurance</div>
+    <div class="card-tags">
+      <span class="tag">Marseille</span>
+      <span class="tag">BdR 13</span>
+      <span class="tag--amber tag">Urgence 24h</span>
+    </div>
+    <div class="card-rent">450 &euro;/mois</div>
+  </a>
+
+  <a class="card" href="sites/serrurier-toulon/index.html">
+    <div class="card-icon" style="background: rgba(251,146,60,0.12); color: #fb923c;">&#128273;</div>
+    <div class="card-title">Serrurier Urgence Toulon</div>
+    <div class="card-meta">Serrurerie Express Toulon — 7 pages<br>Ouverture, changement serrure, porte blind&eacute;e</div>
+    <div class="card-tags">
+      <span class="tag">Toulon</span>
+      <span class="tag">Var 83</span>
+      <span class="tag--amber tag">Urgence 24h</span>
+    </div>
+    <div class="card-rent">400 &euro;/mois</div>
+  </a>
+
+  <a class="card" href="sites/depannage-auto-marseille/index.html">
+    <div class="card-icon" style="background: rgba(250,204,21,0.12); color: #facc15;">&#128663;</div>
+    <div class="card-title">D&eacute;pannage Auto Marseille</div>
+    <div class="card-meta">D&eacute;pannage Express 13 — 7 pages<br>Remorquage, panne autoroute, batterie, accident</div>
+    <div class="card-tags">
+      <span class="tag">Marseille</span>
+      <span class="tag">A7 A8 A50</span>
+      <span class="tag--amber tag">Urgence 24h</span>
+    </div>
+    <div class="card-rent">400 &euro;/mois</div>
+  </a>
+</div>
+
+<div class="section-label">Documentation</div>
+
+<div class="docs-grid">
+  <a class="doc-card" href="sites/CHECKLIST-LANCEMENT.md">
+    <div class="doc-title">Checklist de lancement</div>
+    <div class="doc-desc">H&eacute;bergement, domaines, GBP, citations NAP, netlinking, prospection — tout le plan d&rsquo;action.</div>
+  </a>
+  <a class="doc-card" href="sites/EMAIL-PROSPECTION.md">
+    <div class="doc-title">Templates prospection</div>
+    <div class="doc-desc">3 emails + argumentaire t&eacute;l&eacute;phonique + grille tarifaire pour trouver des locataires.</div>
+  </a>
+</div>
+
+<div class="footer">
+  Rank &amp; Rent PACA &mdash; Projet passif &bull; Objectif 5 000 &euro;/mois<br>
+  <a href="https://github.com/henrifdph/claude">Repo GitHub</a>
+</div>
