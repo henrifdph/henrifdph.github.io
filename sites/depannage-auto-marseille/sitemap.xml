@@ -26,6 +26,31 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.depannage-auto-marseille.fr/pneu-creve.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.depannage-auto-marseille.fr/ouverture-vehicule.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.depannage-auto-marseille.fr/depannage-moto.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.depannage-auto-marseille.fr/fourriere-marseille.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.depannage-auto-marseille.fr/erreur-carburant.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.depannage-auto-marseille.fr/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
