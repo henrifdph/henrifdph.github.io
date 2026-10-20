@@ -31,6 +31,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.serrurier-toulon-urgence.fr/serrure-3-points.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.serrurier-toulon-urgence.fr/cylindre-europeen.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.serrurier-toulon-urgence.fr/blindage-porte.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.serrurier-toulon-urgence.fr/ouverture-coffre-fort.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.serrurier-toulon-urgence.fr/depannage-volet-roulant.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.serrurier-toulon-urgence.fr/mentions-legales.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
