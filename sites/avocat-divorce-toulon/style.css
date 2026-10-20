@@ -1024,3 +1024,66 @@ details > div, details > p {
   font-size: .93rem;
   line-height: 1.75;
 }
+
+/* --- Related articles --- */
+.related-articles {
+  padding: 4rem 1.25rem;
+  background: var(--cream);
+}
+.related-articles .container { max-width: var(--max-w); }
+.related-articles h2 {
+  text-align: center;
+  margin-bottom: .75rem;
+}
+.related-articles .gold-line {
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold), var(--gold-light));
+  margin: 0 auto 2.5rem;
+  border-radius: 2px;
+}
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+.related-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  border: 1px solid var(--gray-200);
+  border-top: 3px solid var(--gold);
+  transition: all var(--transition);
+  text-decoration: none;
+  display: block;
+}
+.related-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+  border-top-color: var(--gold-light);
+}
+.related-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: .5rem;
+  transition: color var(--transition);
+}
+.related-card:hover h3 { color: var(--gold-dark); }
+.related-card p {
+  color: var(--text-light);
+  font-size: .88rem;
+  line-height: 1.65;
+  margin-bottom: .75rem;
+}
+.related-card .card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  color: var(--gold-dark);
+  font-weight: 700;
+  font-size: .85rem;
+  transition: all var(--transition);
+}
+.related-card:hover .card-link {
+  color: var(--navy);
+  gap: .55rem;
+}
