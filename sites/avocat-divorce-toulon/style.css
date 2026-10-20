@@ -699,3 +699,45 @@ a:hover { text-decoration: underline; }
 @media (prefers-reduced-motion: reduce) {
   .nudge-bar .dot { animation: none; }
 }
+
+/* Lead text (hero subtitle) */
+.lead {
+  font-size: 1.1rem;
+  color: var(--text-2);
+  margin-top: .5rem;
+  max-width: 640px;
+}
+
+/* Form layout helpers */
+.form-section {
+  margin-bottom: 2rem;
+}
+.form-group--full {
+  grid-column: 1 / -1;
+}
+
+/* Map placeholder */
+.map-wrap {
+  background: var(--bg-2);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-2);
+  font-size: .95rem;
+}
+
+/* Zones list (sidebar) */
+.zones-list {
+  list-style: none;
+  padding: 0;
+  font-size: .9rem;
+}
+.zones-list li {
+  padding: .25rem 0;
+}
+
+/* FAQ item body */
+.faq-item__body {
+  padding: 0 1rem 1rem;
+}
