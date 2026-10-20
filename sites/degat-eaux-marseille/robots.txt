@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://henrifdph.github.io/sites/degat-eaux-marseille/sitemap.xml
+Sitemap: https://degat-eaux-marseille.fr/sitemap.xml

@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.serrurier-toulon-urgence.fr/sitemap.xml
+
+Sitemap: https://serrurier-toulon-83.fr/sitemap.xml

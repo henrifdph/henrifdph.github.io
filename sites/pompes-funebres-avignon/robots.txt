@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://henrifdph.github.io/sites/pompes-funebres-avignon/sitemap.xml
+Sitemap: https://pompes-funebres-avignon.fr/sitemap.xml
