@@ -615,19 +615,80 @@ a:hover { text-decoration: underline; }
   grid-template-columns: 1fr 280px;
 }
 
+/* ---------- OBJECTION HANDLING ---------- */
+.objection-grid { display: grid; gap: 1.5rem; max-width: 600px; }
+.objection-grid h3 { font-size: .95rem; font-weight: 700; margin-bottom: .25rem; }
+.objection-grid p { font-size: .9rem; color: var(--text-2); margin: 0; }
+
 /* ---------- RESPONSIVE ---------- */
+
 @media (max-width: 768px) {
   .mobile-cta { display: block; }
   body { padding-bottom: 54px; }
-  .form-grid { grid-template-columns: 1fr; }
   .hero { padding: 2rem 0 1.5rem; }
   .section { padding: 2rem 0; }
+  .form-grid { grid-template-columns: 1fr; }
   .content-cols { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .pricing-table { font-size: .82rem; }
+  .pricing-table th, .pricing-table td { padding: .55rem .5rem; }
+  .pricing-table .note { font-size: .72rem; }
+  .trust-block { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
 }
 
 @media (max-width: 480px) {
+  html { font-size: 15px; }
+  .wrap { padding: 0 .85rem; }
+  .site-name { font-size: .88rem; }
+  .header-phone { padding: .45rem .75rem; font-size: .85rem; min-height: 44px; }
+  .site-nav { -webkit-overflow-scrolling: touch; scrollbar-width: none; -ms-overflow-style: none; mask-image: linear-gradient(to right, #000 85%, transparent); -webkit-mask-image: linear-gradient(to right, #000 85%, transparent); }
+  .site-nav::-webkit-scrollbar { display: none; }
+  .site-nav a { padding: .6rem .7rem; font-size: .8rem; }
+  .hero { padding: 1.5rem 0 1.25rem; }
+  .hero h1 { font-size: 1.35rem; }
+  .hero .sub { font-size: .92rem; margin-bottom: 1rem; }
   .hero-ctas { flex-direction: column; }
-  .hero-ctas .btn { width: 100%; justify-content: center; }
+  .hero-ctas .btn { width: 100%; justify-content: center; min-height: 48px; font-size: .95rem; }
+  .nudge-bar .wrap { flex-direction: column; gap: .25rem; font-size: .8rem; text-align: center; }
+  .trust-block { grid-template-columns: 1fr 1fr; gap: .75rem; }
+  .trust-item strong { font-size: 1.3rem; }
+  .trust-item span { font-size: .75rem; }
+  .service-row { grid-template-columns: 1fr auto; gap: .5rem; padding: .75rem .85rem; }
+  .service-row h3 { font-size: .88rem; }
+  .service-row .arrow { display: none; }
+  .pricing-table { display: block; overflow-x: auto; white-space: nowrap; }
+  .pricing-table th, .pricing-table td { padding: .5rem .6rem; font-size: .78rem; }
+  .cta-block { padding: 1.5rem 1rem; }
+  .cta-block h2 { font-size: 1.1rem; }
+  .cta-block .btn-primary { width: 100%; justify-content: center; min-height: 48px; }
+  .warning-box { padding: 1rem .85rem 1rem .75rem; }
+  .warning-box h3 { font-size: .88rem; }
+  .warning-box p, .warning-box li { font-size: .82rem; }
+  .faq-item summary { font-size: .88rem; padding: .75rem 0; }
+  .faq-body { font-size: .85rem; }
+  .form-block { padding: 1.25rem 1rem; }
+  .form-group input, .form-group select, .form-group textarea { padding: .7rem .75rem; font-size: .95rem; min-height: 44px; }
+  .form-group label { font-size: .78rem; }
+  .form-block .btn-primary { min-height: 48px; font-size: .95rem; }
+  .zone-list { gap: .3rem; }
+  .zone-list li { font-size: .75rem; padding: .25rem .55rem; }
+  .objection-grid { gap: 1rem; }
+  .objection-grid h3 { font-size: .88rem; }
+  .objection-grid p { font-size: .82rem; }
+  .section-title { font-size: 1.15rem; }
+  .section-sub { font-size: .85rem; margin-bottom: 1.25rem; }
+  .footer-grid { grid-template-columns: 1fr; gap: 1.25rem; }
+  .site-footer { padding: 1.5rem 0 .75rem; font-size: .8rem; }
+  .footer-bottom { font-size: .7rem; }
+  .mobile-cta a { padding: .85rem .85rem calc(.85rem + env(safe-area-inset-bottom, 0px)); min-height: 48px; }
+}
+
+@media (max-width: 360px) {
+  html { font-size: 14px; }
+  .hero h1 { font-size: 1.2rem; }
+  .header-phone { padding: .4rem .6rem; font-size: .8rem; }
+  .service-row h3 { font-size: .82rem; }
+  .service-row .price-tag { font-size: .78rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
