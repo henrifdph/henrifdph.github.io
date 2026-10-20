@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://henrifdph.github.io/claude/sites/avocat-divorce-toulon/sitemap.xml
