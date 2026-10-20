@@ -1,63 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://henrifdph.github.io/sites/degat-eaux-marseille/</loc>
+    <loc>https://degat-eaux-marseille.fr/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/degat-eaux-marseille/recherche-fuite.html</loc>
+    <loc>https://degat-eaux-marseille.fr/recherche-fuite.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/degat-eaux-marseille/assechement-murs.html</loc>
+    <loc>https://degat-eaux-marseille.fr/assechement-murs.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/degat-eaux-marseille/sinistre-assurance.html</loc>
+    <loc>https://degat-eaux-marseille.fr/sinistre-assurance.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/degat-eaux-marseille/urgence-inondation.html</loc>
+    <loc>https://degat-eaux-marseille.fr/urgence-inondation.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/degat-eaux-marseille/fuite-canalisation.html</loc>
+    <loc>https://degat-eaux-marseille.fr/fuite-canalisation.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/degat-eaux-marseille/degat-eaux-appartement.html</loc>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-appartement.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/degat-eaux-marseille/traitement-humidite.html</loc>
+    <loc>https://degat-eaux-marseille.fr/traitement-humidite.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/degat-eaux-marseille/plombier-urgence.html</loc>
+    <loc>https://degat-eaux-marseille.fr/plombier-urgence.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/degat-eaux-marseille/expertise-degat-eaux.html</loc>
+    <loc>https://degat-eaux-marseille.fr/expertise-degat-eaux.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/degat-eaux-marseille/contact.html</loc>
+    <loc>https://degat-eaux-marseille.fr/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/degat-eaux-marseille/mentions-legales.html</loc>
+    <loc>https://degat-eaux-marseille.fr/mentions-legales.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-aix-en-provence.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-aubagne.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-martigues.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-salon-de-provence.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-istres.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-la-ciotat.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-vitrolles.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-marignane.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-gardanne.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-les-pennes-mirabeau.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-allauch.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-plan-de-cuques.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-cassis.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-gemenos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-roquevaire.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-septemes-les-vallons.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://degat-eaux-marseille.fr/degat-eaux-cabries.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

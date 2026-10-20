@@ -1,55 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://henrifdph.github.io/sites/pompes-funebres-avignon/index.html</loc>
+    <loc>https://pompes-funebres-avignon.fr/index.html</loc>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/pompes-funebres-avignon/organisation-obseques.html</loc>
+    <loc>https://pompes-funebres-avignon.fr/organisation-obseques.html</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/pompes-funebres-avignon/cremation.html</loc>
+    <loc>https://pompes-funebres-avignon.fr/cremation.html</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/pompes-funebres-avignon/inhumation.html</loc>
+    <loc>https://pompes-funebres-avignon.fr/inhumation.html</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/pompes-funebres-avignon/rapatriement.html</loc>
+    <loc>https://pompes-funebres-avignon.fr/rapatriement.html</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/pompes-funebres-avignon/contrat-prevoyance.html</loc>
+    <loc>https://pompes-funebres-avignon.fr/contrat-prevoyance.html</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/pompes-funebres-avignon/deces-demarches.html</loc>
+    <loc>https://pompes-funebres-avignon.fr/deces-demarches.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/fleurs-deuil.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/marbrerie-funeraire.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/chambre-funeraire.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/obseques-musulmanes.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/contact.html</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/pompes-funebres-avignon/fleurs-deuil.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://henrifdph.github.io/sites/pompes-funebres-avignon/marbrerie-funeraire.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://henrifdph.github.io/sites/pompes-funebres-avignon/chambre-funeraire.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://henrifdph.github.io/sites/pompes-funebres-avignon/obseques-musulmanes.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://henrifdph.github.io/sites/pompes-funebres-avignon/contact.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://henrifdph.github.io/sites/pompes-funebres-avignon/mentions-legales.html</loc>
+    <loc>https://pompes-funebres-avignon.fr/mentions-legales.html</loc>
+    <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/pompes-funebres-carpentras.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/pompes-funebres-orange.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/pompes-funebres-cavaillon.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/pompes-funebres-isle-sur-la-sorgue.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/pompes-funebres-apt.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/pompes-funebres-pertuis.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/pompes-funebres-sorgues.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/pompes-funebres-le-pontet.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/pompes-funebres-bollene.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/pompes-funebres-vaison-la-romaine.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pompes-funebres-avignon.fr/pompes-funebres-chateauneuf-du-pape.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

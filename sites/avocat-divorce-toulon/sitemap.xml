@@ -1,75 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://henrifdph.github.io/sites/avocat-divorce-toulon/index.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <loc>https://avocat-divorce-toulon.fr/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/avocat-divorce-toulon/divorce-consentement-mutuel.html</loc>
-    <lastmod>2025-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://henrifdph.github.io/sites/avocat-divorce-toulon/divorce-contentieux.html</loc>
-    <lastmod>2025-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://henrifdph.github.io/sites/avocat-divorce-toulon/pension-alimentaire.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <loc>https://avocat-divorce-toulon.fr/divorce-consentement-mutuel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/avocat-divorce-toulon/garde-enfants.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <loc>https://avocat-divorce-toulon.fr/divorce-contentieux.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/avocat-divorce-toulon/prestation-compensatoire.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <loc>https://avocat-divorce-toulon.fr/pension-alimentaire.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/avocat-divorce-toulon/divorce-pour-faute.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <loc>https://avocat-divorce-toulon.fr/garde-enfants.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/avocat-divorce-toulon/mediation-familiale.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <loc>https://avocat-divorce-toulon.fr/prestation-compensatoire.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/avocat-divorce-toulon/droit-visite-hebergement.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <loc>https://avocat-divorce-toulon.fr/divorce-pour-faute.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/avocat-divorce-toulon/separation-corps.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <loc>https://avocat-divorce-toulon.fr/mediation-familiale.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/droit-visite-hebergement.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/separation-corps.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/avocat-divorce-toulon/contact.html</loc>
-    <lastmod>2025-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://henrifdph.github.io/sites/avocat-divorce-toulon/mentions-legales.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <loc>https://avocat-divorce-toulon.fr/mentions-legales.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/avocat-divorce-la-seyne-sur-mer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/avocat-divorce-hyeres.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/avocat-divorce-la-garde.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/avocat-divorce-la-valette-du-var.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/avocat-divorce-six-fours-les-plages.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/avocat-divorce-sanary-sur-mer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/avocat-divorce-bandol.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/avocat-divorce-ollioules.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/avocat-divorce-le-pradet.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/avocat-divorce-carqueiranne.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/avocat-divorce-la-crau.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/avocat-divorce-sollies-pont.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avocat-divorce-toulon.fr/avocat-divorce-le-revest-les-eaux.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

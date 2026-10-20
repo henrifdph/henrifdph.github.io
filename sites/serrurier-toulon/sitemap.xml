@@ -1,63 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://henrifdph.github.io/sites/serrurier-toulon/</loc>
+    <loc>https://serrurier-toulon-83.fr/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/serrurier-toulon/ouverture-porte.html</loc>
+    <loc>https://serrurier-toulon-83.fr/ouverture-porte.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/serrurier-toulon/changement-serrure.html</loc>
+    <loc>https://serrurier-toulon-83.fr/changement-serrure.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/serrurier-toulon/porte-blindee.html</loc>
+    <loc>https://serrurier-toulon-83.fr/porte-blindee.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/serrurier-toulon/urgence-cambriolage.html</loc>
+    <loc>https://serrurier-toulon-83.fr/urgence-cambriolage.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/serrurier-toulon/contact.html</loc>
+    <loc>https://serrurier-toulon-83.fr/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/serrurier-toulon/serrure-3-points.html</loc>
+    <loc>https://serrurier-toulon-83.fr/serrure-3-points.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/serrurier-toulon/cylindre-europeen.html</loc>
+    <loc>https://serrurier-toulon-83.fr/cylindre-europeen.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/serrurier-toulon/blindage-porte.html</loc>
+    <loc>https://serrurier-toulon-83.fr/blindage-porte.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/serrurier-toulon/ouverture-coffre-fort.html</loc>
+    <loc>https://serrurier-toulon-83.fr/ouverture-coffre-fort.html</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/serrurier-toulon/depannage-volet-roulant.html</loc>
+    <loc>https://serrurier-toulon-83.fr/depannage-volet-roulant.html</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://henrifdph.github.io/sites/serrurier-toulon/mentions-legales.html</loc>
+    <loc>https://serrurier-toulon-83.fr/mentions-legales.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-la-seyne-sur-mer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-hyeres.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-la-garde.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-la-valette-du-var.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-six-fours-les-plages.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-sanary-sur-mer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-bandol.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-ollioules.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-le-pradet.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-carqueiranne.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-la-crau.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-sollies-pont.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-le-revest-les-eaux.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-saint-mandrier-sur-mer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-cuers.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-pierrefeu-du-var.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://serrurier-toulon-83.fr/serrurier-la-farlede.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
