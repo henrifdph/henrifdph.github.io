@@ -1095,3 +1095,80 @@ p { margin-bottom: 1em; }
   .trust-badge-item { padding: 20px 14px; }
   .trust-badge-icon { width: 46px; height: 46px; }
 }
+
+/* --- Articles connexes / Cross-links --- */
+.articles-connexes {
+  margin: 3em 0;
+  padding: 2.5em 0;
+  border-top: 2px solid var(--gray-100);
+}
+.articles-connexes h3 {
+  color: var(--amber-dark);
+  font-size: 1.3rem;
+  margin-bottom: 1.25em;
+  position: relative;
+  padding-bottom: .5em;
+}
+.articles-connexes h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 40px; height: 3px;
+  background: linear-gradient(90deg, var(--amber), var(--amber-dark));
+  border-radius: 3px;
+}
+.crosslinks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+.crosslink-card {
+  display: block;
+  padding: 20px;
+  background: var(--white);
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: all var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+.crosslink-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 4px; height: 100%;
+  background: linear-gradient(180deg, var(--amber), var(--amber-dark));
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform var(--transition);
+}
+.crosslink-card:hover {
+  border-color: var(--amber);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+.crosslink-card:hover::before {
+  transform: scaleY(1);
+}
+.crosslink-icon {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 8px;
+}
+.crosslink-title {
+  display: block;
+  font-weight: 700;
+  color: var(--charcoal);
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+.crosslink-desc {
+  display: block;
+  font-size: .85rem;
+  color: var(--gray-500);
+  line-height: 1.5;
+}
+.crosslink-card:hover .crosslink-title {
+  color: var(--amber-dark);
+}
